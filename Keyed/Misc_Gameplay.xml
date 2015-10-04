@@ -18,7 +18,6 @@
   <NotEnoughStoredLower>недостаточно</NotEnoughStoredLower>
   <NothingLower>ничего</NothingLower>
   <Adapted>Устойчив</Adapted>
-  <Headshot>В голову</Headshot>
   <FreshMissingBodyPart>недавно</FreshMissingBodyPart>
   <UntreatedLower>невылечено</UntreatedLower>
   <DevelopedImmunityLower>выработан иммунитет</DevelopedImmunityLower>
@@ -33,19 +32,26 @@
   <Inventory>Инвентарь</Inventory>
   <ThingInfo>Информация</ThingInfo>
   <DropThing>Выкинуть</DropThing>
+  <Rename>Переименовать</Rename>
   <RenameColonist>Переименовать</RenameColonist>
   <UnknownLower>неизвестно</UnknownLower>
   <On>Вкл</On>
   <Off>Выкл</Off>
   <PowerSwitch_Power>Питание</PowerSwitch_Power>
-  <AreaLower>Область</AreaLower>
   <JoyTolerances>Удовлетворённость</JoyTolerances>
   <BrokenLetterLabel>Сломлен</BrokenLetterLabel>
+
+  <!--TextMotes-->
+  <Headshot>В голову</Headshot>
+  <TextMoteTreatedPoorly>перевязано плохо\n{0} шанс</TextMoteTreatedPoorly>
+  <TextMoteTreatedWell>перевязано хорошо\n{0} шанс</TextMoteTreatedWell>
+
+  <!-- Areas -->
   <AreaDefaultLabel>Зона {0}</AreaDefaultLabel>
   <NoAreaAllowed>Неограничено</NoAreaAllowed>
   <NewArea>Новая зона</NewArea>
   <InvertArea>Обратить</InvertArea>
-  
+
   <!-- Control -->
   <CannotOrderNonControlled>Нельзя приказать неконтролируемые юниты.</CannotOrderNonControlled>
   <IsIncapableOfViolence>{0} неспособен к насилию.</IsIncapableOfViolence>
@@ -77,6 +83,7 @@
   <WatchingEclipse>Наблюдает за затмением</WatchingEclipse>
   <DeliveringFood>Несёт еду для {0}.</DeliveringFood>
   <UsingVerb>Использует {0} на {1}.</UsingVerb>
+  <AreaLower>Область</AreaLower>
 
   <!-- Shooting report -->
   <WeaponMissRadius>Разброс оружия</WeaponMissRadius>
@@ -193,10 +200,10 @@
   <AllowAll>Разрешить всё</AllowAll>
 
   <!-- ThingFilter -->
-	<HitPoints>Целостность {0}</HitPoints>
-	<AnyQuality>Любое качество</AnyQuality>
-	<OnlyQuality>Только {0}</OnlyQuality>
-	
+  <HitPoints>Целостность {0}</HitPoints>
+  <AnyQuality>Любое качество</AnyQuality>
+  <OnlyQuality>Только {0}</OnlyQuality>
+
   <!-- Mouseover indicator -->
   <Undiscovered>Не разведано</Undiscovered>
 
@@ -226,7 +233,7 @@
   <MustPlaceCoolerWithFreeSpaces>И горячая и холодная стороны кондиционера должны быть открыты.</MustPlaceCoolerWithFreeSpaces>
   <MustPlaceVentWithFreeSpaces>Обе стороны должны быть свободны, для циркуляции воздуха.</MustPlaceVentWithFreeSpaces>
   <MustPlaceAdjacentStandable>Должно быть установлено в свободное со всех сторон, пространство.</MustPlaceAdjacentStandable>
-  
+
   <!-- Wind Turbine -->
   <WindTurbine_WindPathIsBlockedBy>Заблокировано </WindTurbine_WindPathIsBlockedBy>
   <WindTurbine_WindPathIsBlockedByRoof>Заблокировано крышей</WindTurbine_WindPathIsBlockedByRoof>
@@ -278,12 +285,12 @@
   <GameOverKeepPlaying>Продолжить играть</GameOverKeepPlaying>
   <GameOverMainMenu>Главное меню</GameOverMainMenu>
 
-    <!-- Generic lifespan -->
+  <!-- Generic lifespan -->
   <LifespanExpiry>Истекает через:</LifespanExpiry>
 
   <!-- Traps -->
   <TrapArmed>Заряжено</TrapArmed>
   <TrapNotArmed>Разряжено</TrapNotArmed>
   <TrapRearmingCost>Затраты на перезарядку: {0}</TrapRearmingCost>
-  
+
 </LanguageData>

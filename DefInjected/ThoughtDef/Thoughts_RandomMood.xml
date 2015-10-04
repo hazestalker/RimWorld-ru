@@ -11,11 +11,11 @@
   </rep>
   <rep>
 	<path>FeelingRandom.stages[1].label</path>
-	<trans>Хорошиее самочувствие</trans>
+	<trans>Хорошее самочувствие</trans>
   </rep>
   <rep>
 	<path>FeelingRandom.stages[1].description</path>
-	<trans>Я чувсвую себя хорошо.</trans>
+	<trans>Я чувствую себя хорошо.</trans>
   </rep>
   <rep>
 	<path>FeelingRandom.stages[2].label</path>
@@ -23,7 +23,7 @@
   </rep>
   <rep>
 	<path>FeelingRandom.stages[2].description</path>
-	<trans>Что-то мне приплохело.</trans>
+	<trans>Что-то мне поплохело.</trans>
   </rep>
   <rep>	
 	<path>FeelingRandom.stages[3].label</path>
